@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 5</title>
+</head>
+<body>
+    <script>
+        let stra = prompt('Nhập chuỗi a: ');
+        let strb = prompt('Nhập chuỗi b: ');
+        let a = stra.split("");
+        let b = strb.split("");
+        if (a.length > b.length) {
+            for (i=0;i<a.length;i++){
+                if( a[i] != b[i]) {
+                    alert('Hai chuỗi a và b khác nhau!');
+                    break;
+                }
+            }
+        }else if (a.length < b.length){
+                for (j=0;j<b.length;j++){
+                    if (a[i] != b[i]) {
+                        alert('Hai chuỗi a và b khác nhau!');
+                        break;
+                    }
+                }
+            }
+         else for (let k=0;k<b.length;j++){
+             if (a[k] != b[k]) {
+                 alert('Hai chuỗi a và b khác nhau!');
+                 break;
+             } else alert('Hai chuỗi a và b bằng nhau!'); 
+         }
+    </script>
+</body>
+</html>
